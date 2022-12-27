@@ -1,5 +1,7 @@
 const form = document.querySelector("form");
 const tableBody = document.querySelector("#myTable tbody");
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
 // GET
 const showData = async () => {
@@ -68,8 +70,6 @@ form.addEventListener("submit", () => {
 });
 
 //navbar
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
