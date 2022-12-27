@@ -76,7 +76,6 @@ a {
     position: fixed;
     left: 100%;
     top: 70px;
-    gap: 0;
     flex-direction: column;
     background-color: #000;
     width: 100%;
