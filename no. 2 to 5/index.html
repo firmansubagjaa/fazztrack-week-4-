@@ -10,31 +10,59 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="box">
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-branding">FRMN.</a>
 
-      <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">CONTACT</a>
+        </li>
+      </ul>
 
-      <table id="myTable" border="1" cellspacing="0" cellpadding="10">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
 
+  <section>
+
+    <div class="container">
+      <div class="box">
+
+        <form>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+        <table id="myTable" border="1" cellspacing="0" cellpadding="10">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+      </div>
     </div>
-  </div>
+
+  </section>
 
   <script src="index.js"></script>
 </body>
