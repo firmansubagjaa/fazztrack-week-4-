@@ -27,3 +27,14 @@ const tableData = async () => {
 };
 
 console.log(tableData());
+
+// form.addEventListener("submit", (event) => {
+//   event.preventDefault();
+//   const name = form.elements.name.value;
+//   const email = form.elements.email.value;
+//   const payload = {
+//     name: name,
+//     email: email,
+//   };
+//   console.log(payload);
+// });
