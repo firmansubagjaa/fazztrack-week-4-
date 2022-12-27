@@ -11,6 +11,7 @@ body {
 /* navbar */
 
 header {
+  box-shadow: 1px 1px 20px #50577a;
 }
 
 li {
@@ -104,8 +105,8 @@ table {
   color: #f4f4f4;
   border-radius: 10px;
   border: 1px solid #fff;
-
   margin-top: 20px;
+  padding: 10px;
 }
 
 input {

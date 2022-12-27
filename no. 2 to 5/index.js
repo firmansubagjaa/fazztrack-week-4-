@@ -41,7 +41,6 @@ const showData = async () => {
       });
     });
     console.log(dataMap);
-    document.getElementById("MyTable").innerHTML = tr;
   } catch (err) {
     console.log(err);
   }
